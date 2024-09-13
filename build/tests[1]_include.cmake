@@ -1,0 +1,5 @@
+if(EXISTS "/home/jfomit/source/repos/demo/build/tests[1]_tests.cmake")
+  include("/home/jfomit/source/repos/demo/build/tests[1]_tests.cmake")
+else()
+  add_test(tests_NOT_BUILT tests_NOT_BUILT)
+endif()
